@@ -68,6 +68,16 @@ get("/message") do
   erb(:message)
 end
 
+post("/process_single_message") do
+  erb(:process_message)
+end
+
 get("/chat") do
   erb(:chat)
+end
+
+post("/add_message_to_chat") do
+end
+
+post("clear_chat") do
 end
